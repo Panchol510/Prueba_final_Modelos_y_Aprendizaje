@@ -104,3 +104,16 @@ Precision Score
 Test: La precisión del modelo en el conjunto de datos de prueba es del 100%. Esto significa que de todas las instancias clasificadas como positivas por el modelo, el 100% fueron realmente positivas.
 Train: En el conjunto de datos de entrenamiento, la precisión es del 100%. Esto indica que el 100% de todas las instancias clasificadas como positivas por el modelo durante el entrenamiento fueron realmente positivas.
 
+Conclusión
+
+Basándonos únicamente en los resultados proporcionados, la mejor opción entre Regresión Logística, Árbol de Decisión y Random Forest sería el modelo de Random Forest. 
+
+Rendimiento en el conjunto de prueba
+El Random Forest muestra un alto rendimiento en términos de precisión, recall y accuracy tanto en el conjunto de prueba como en el conjunto de entrenamiento.
+Tiene una precisión del 100% en ambos conjuntos de datos para predecir ambas clases (benigno y maligno).
+
+Generalización y mitigación del sobreajuste:
+Random Forest tiende a generalizar bien a datos no vistos y a mitigar el sobreajuste gracias a su naturaleza de promediar múltiples árboles de decisión entrenados en subconjuntos aleatorios del conjunto de datos.
+
+Capacidad para manejar relaciones no lineales:
+Random Forest puede manejar relaciones no lineales entre las variables de entrada y la variable de salida, lo que lo hace adecuado para problemas con características complejas.
