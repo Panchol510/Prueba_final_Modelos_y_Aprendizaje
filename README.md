@@ -25,7 +25,7 @@ Esta técnica es utilizada en el preprocesamiento de datos que tiene como objeti
 
 **Ventaja y desventaja de cada modelo**
 
-1.	Modelo Logistic Regression:
+Modelo Logistic Regression:
 
 Ventajas:
    Buen desempeño en términos de precisión, recall y accuracy.
@@ -38,11 +38,11 @@ Ventajas:
 Modelo árbol de decisión:
 
     
-    Ventajas:
+   Ventajas:
     Fácil de entender e interpretar: Los árboles de decisión pueden visualizarse fácilmente, lo que facilita su explicación a personas no técnicas.
     Capacidad para manejar datos no lineales: Los árboles de decisión pueden manejar relaciones no lineales entre las variables de entrada y la variable de salida.
     
-    Desventajas:
+   Desventajas:
     Propensos al sobreajuste: Los árboles de decisión tienden a sobreajustarse a los datos de entrenamiento, lo que puede resultar en un rendimiento deficiente en datos no vistos.
 
 Modelo Radom forest:
