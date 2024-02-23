@@ -27,7 +27,6 @@ Esta técnica es utilizada en el preprocesamiento de datos que tiene como objeti
 
 <span style="text-decoration: underline;">Modelo Logistic Regression:</span>
 
-
 Ventajas:
    Buen desempeño en términos de precisión, recall y accuracy.
   Interpretabilidad: Es fácil de entender y explicar cómo funciona el modelo.
