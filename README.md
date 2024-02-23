@@ -27,22 +27,26 @@ Ventaja y desventaja de cada modelo
 
 1.	Modelo Logistic Regression:
   Ventajas:
-    •	Buen desempeño en términos de precisión, recall y accuracy.
-    •	Interpretabilidad: Es fácil de entender y explicar cómo funciona el modelo.
+   Buen desempeño en términos de precisión, recall y accuracy.
+  Interpretabilidad: Es fácil de entender y explicar cómo funciona el modelo.
   Desventajas:
-    •	Limitado a problemas lineales: La regresión logística asume una relación lineal entre las variables de entrada y la variable de salida, lo que puede limitar su capacidad para 
-      modelar relaciones complejas.
-2.	Modelo árbol de decisión:
+   Limitado a problemas lineales: La regresión logística asume una relación lineal entre las variables de entrada y la variable de salida, lo que puede limitar su capacidad para 
+   modelar relaciones complejas.
+Modelo árbol de decisión:
     Ventajas:
-    •	Fácil de entender e interpretar: Los árboles de decisión pueden visualizarse fácilmente, lo que facilita su explicación a personas no técnicas.
-    •	Capacidad para manejar datos no lineales: Los árboles de decisión pueden manejar relaciones no lineales entre las variables de entrada y la variable de salida.
+    Fácil de entender e interpretar: Los árboles de decisión pueden visualizarse fácilmente, lo que facilita su explicación a personas no técnicas.
+    Capacidad para manejar datos no lineales: Los árboles de decisión pueden manejar relaciones no lineales entre las variables de entrada y la variable de salida.
     Desventajas:
-    •	Propensos al sobreajuste: Los árboles de decisión tienden a sobreajustarse a los datos de entrenamiento, lo que puede resultar en un rendimiento deficiente en datos no vistos.
-3.	Modelo Radom forest:
+    Propensos al sobreajuste: Los árboles de decisión tienden a sobreajustarse a los datos de entrenamiento, lo que puede resultar en un rendimiento deficiente en datos no vistos.
+Modelo Radom forest:
   Ventajas:
-    •	Reducción del sobreajuste: Random Forests mitigar el sobreajuste mediante el promedio de múltiples árboles de decisión entrenados en subconjuntos aleatorios del conjunto de datos.
-    •	Buen rendimiento: Suelen tener un rendimiento sólido en una variedad de conjuntos de datos y son menos propensos al sobreajuste que los árboles de decisión individuales.
+  Reducción del sobreajuste: Random Forests mitigar el sobreajuste mediante el promedio de múltiples árboles de decisión entrenados en subconjuntos aleatorios del conjunto de datos.
+  Buen rendimiento: Suelen tener un rendimiento sólido en una variedad de conjuntos de datos y son menos propensos al sobreajuste que los árboles de decisión individuales.
   Desventajas:
-    •	Menos interpretables que los árboles de decisión individuales: Debido a que Random Forests están compuestos por múltiples árboles de decisión, pueden ser más difíciles de       
-      interpretar y visualizar que un solo árbol de decisión.
+  Menos interpretables que los árboles de decisión individuales: Debido a que Random Forests están compuestos por múltiples árboles de decisión, pueden ser más difíciles de       
+  interpretar y visualizar que un solo árbol de decisión.
+
+
+Modelo Logistic Regression
+
 
