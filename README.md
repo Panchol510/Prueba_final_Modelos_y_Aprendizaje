@@ -26,7 +26,8 @@ Esta técnica es utilizada en el preprocesamiento de datos que tiene como objeti
 
 **Ventaja y desventaja de cada modelo**
 
-<span style="text-decoration: underline;">Modelo Logistic Regression:</span>
+<u>Modelo Logistic Regression:</u>
+
 
 Ventajas:
    Buen desempeño en términos de precisión, recall y accuracy.
