@@ -88,4 +88,19 @@ Precision Score
 Test: La precisión del modelo en el conjunto de datos de prueba es del 92.11%. Esto significa que de todas las instancias clasificadas como positivas por el modelo, el 92.11% fueron realmente positivas.
 Train: En el conjunto de datos de entrenamiento, la precisión es del 100%. Esto indica que el 100% de todas las instancias clasificadas como positivas por el modelo durante el entrenamiento fueron realmente positivas.
 
+Modelo Radom forest
+
+Resultados:
+
+Recall Score 
+Test: El modelo tiene una tasa de recuperación del 95% en el conjunto de datos de prueba. Esto significa que de todos los casos positivos en el conjunto de datos, el 95% fueron identificados correctamente por el modelo como positivos.
+Train: En el conjunto de datos de entrenamiento, la tasa de recuperación es del 100%. Esto indica que durante el entrenamiento, el modelo identificó correctamente el 100% de todos los casos positivos.
+
+Accuracy Score 
+Test: La exactitud del modelo en el conjunto de datos de prueba es del 98.25%. Esto significa que el 98.25% de las predicciones hechas por el modelo en el conjunto de datos de prueba fueron correctas.
+Train: En el conjunto de datos de entrenamiento, la exactitud es del 100%. Esta métrica indica que el 100% de las predicciones hechas por el modelo durante el entrenamiento fueron correctas.
+
+Precision Score
+Test: La precisión del modelo en el conjunto de datos de prueba es del 100%. Esto significa que de todas las instancias clasificadas como positivas por el modelo, el 100% fueron realmente positivas.
+Train: En el conjunto de datos de entrenamiento, la precisión es del 100%. Esto indica que el 100% de todas las instancias clasificadas como positivas por el modelo durante el entrenamiento fueron realmente positivas.
 
