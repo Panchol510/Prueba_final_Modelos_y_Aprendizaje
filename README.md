@@ -1,29 +1,29 @@
 **Prueba Final - Modelos y Aprendizaje**
 
-Objetivo: En el notebook probar al menos con 3 modelos, evaluarlos y decidir cuál es el mejor, justificando la respuesta en base a las matrices de confusión que aparecen al evaluar el error en training y en test.
+**Objetivo**: En el notebook probar al menos con 3 modelos, evaluarlos y decidir cuál es el mejor, justificando la respuesta en base a las matrices de confusión que aparecen al evaluar el error en training y en test.
 
-Carga de datos
+**Carga de datos**
 El primer paso es la carga de del data set a través del comando “pd.read_csv” y así su exploración
 
-Procesamiento de la información
+**Procesamiento de la información**
 Se procede con la verificación de la información del dataset para analizar si hay duplicados, nulos, blancos y el tipo de variable. 
 
-Categorización de variable
+**Categorización de variable**
 Se procede categorizar la variable “M” con el valor “1” y “B” con el valor “0” con el fin de agrupan datos similares en distintas categorías o clases, lo que facilita su análisis y comprensión.
 
-Análisis del desbalanceo de los datos
+**Análisis del desbalanceo de los datos**
 Para el valor 0, que parece corresponder a un diagnóstico negativo, hay 357 casos en el conjunto de datos. Para el valor 1, que parece corresponder a un diagnóstico positivo, hay 212 casos en el conjunto de datos.
 Hay un desequilibrio en la distribución de clases en el conjunto de datos, ya que hay más casos con diagnósticos negativos (357) que positivos (212). Este desequilibrio puede afectar el rendimiento de ciertos modelos de aprendizaje automático y debe ser tenido en cuenta durante el proceso de modelado y evaluación
 
-Balanceo de datos
+**Balanceo de datos**
 El objetivo del balanceo de datos es corregir desequilibrios en la distribución de clases dentro de un conjunto de datos. En muchos problemas de clasificación, puede ocurrir que una clase esté sobrerrepresentada en comparación con otras, lo que puede llevar a un sesgo en el modelo de aprendizaje automático hacia la clase mayoritaria y a un rendimiento deficiente en la clasificación de las clases minoritarias. Se utilizó la técnica de submuestreo aleatorio (Random Under-Sampling) para equilibrar las clases en un conjunto de datos desequilibrado y así se obtuvo  "0" = 212 & "1" =212
 
-Escalamiento de los datos
+**Escalamiento de los datos**
 Esta técnica es utilizada en el preprocesamiento de datos que tiene como objetivo estandarizar las características de un conjunto de datos, es decir, ajustarlas a una escala común. Esto se hace para que todas las características contribuyan por igual al análisis o al modelo de aprendizaje automático, evitando así que una característica con una escala mucho mayor domine sobre otras características durante el análisis.
 
-Por el tipo de información que contiene el dataset se estimó que los modelos más apropiados son: Modelo Logistic Regression, Modelo árbol de decisión y Modelo Radom forest
+**Por el tipo de información que contiene el dataset se estimó que los modelos más apropiados son: Modelo Logistic Regression, Modelo árbol de decisión y Modelo Radom forest**
 
-Ventaja y desventaja de cada modelo
+**Ventaja y desventaja de cada modelo**
 
 1.	Modelo Logistic Regression:
 
@@ -56,7 +56,7 @@ Modelo Radom forest:
   interpretar y visualizar que un solo árbol de decisión.
 
 
-Modelo Logistic Regression
+**Modelo Logistic Regression**
 
 Resultados:
 
@@ -72,7 +72,7 @@ Precision Score
 Test: La precisión del modelo en el conjunto de datos de prueba es del 100%. Esto significa que, de todas las instancias clasificadas como positivas por el modelo, el 100% fueron realmente positivas.
 Train: En el conjunto de datos de entrenamiento, la precisión es del 99.37%. Esto indica que el 99.37% de todas las instancias clasificadas como positivas por el modelo durante el entrenamiento fueron realmente positivas.
 
-Modelo árbol de decisión
+**Modelo árbol de decisión**
 
 Resultados:
 
@@ -88,7 +88,7 @@ Precision Score
 Test: La precisión del modelo en el conjunto de datos de prueba es del 92.11%. Esto significa que de todas las instancias clasificadas como positivas por el modelo, el 92.11% fueron realmente positivas.
 Train: En el conjunto de datos de entrenamiento, la precisión es del 100%. Esto indica que el 100% de todas las instancias clasificadas como positivas por el modelo durante el entrenamiento fueron realmente positivas.
 
-Modelo Radom forest
+**Modelo Radom forest**
 
 Resultados:
 
@@ -104,7 +104,7 @@ Precision Score
 Test: La precisión del modelo en el conjunto de datos de prueba es del 100%. Esto significa que de todas las instancias clasificadas como positivas por el modelo, el 100% fueron realmente positivas.
 Train: En el conjunto de datos de entrenamiento, la precisión es del 100%. Esto indica que el 100% de todas las instancias clasificadas como positivas por el modelo durante el entrenamiento fueron realmente positivas.
 
-Conclusión
+**Conclusión**
 
 Basándonos únicamente en los resultados proporcionados, la mejor opción entre Regresión Logística, Árbol de Decisión y Random Forest sería el modelo de Random Forest. 
 
