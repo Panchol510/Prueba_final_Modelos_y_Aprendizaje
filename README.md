@@ -62,9 +62,11 @@ Resultados:
 Recall Score 
 Test: El modelo tiene una tasa de recuperación del 90% en el conjunto de datos de prueba. Esto significa que de todos los casos positivos en el conjunto de datos, el 90% fueron identificados correctamente por el modelo como positivos.
 Train: En el conjunto de datos de entrenamiento, la tasa de recuperación es del 91.28%. Esto indica que, durante el entrenamiento, el modelo identificó correctamente el 91.28% de todos los casos positivos.
+
 Accuracy Score
 Test: La exactitud del modelo en el conjunto de datos de prueba es del 96.49%. Esto significa que el 96.49% de las predicciones hechas por el modelo en el conjunto de datos de prueba fueron correctas.
 Train: En el conjunto de datos de entrenamiento, la exactitud es del 96.48%. Esta métrica indica que el 96.48% de las predicciones hechas por el modelo durante el entrenamiento fueron correctas.
+
 Precision Score
 Test: La precisión del modelo en el conjunto de datos de prueba es del 100%. Esto significa que, de todas las instancias clasificadas como positivas por el modelo, el 100% fueron realmente positivas.
 Train: En el conjunto de datos de entrenamiento, la precisión es del 99.37%. Esto indica que el 99.37% de todas las instancias clasificadas como positivas por el modelo durante el entrenamiento fueron realmente positivas.
