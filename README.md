@@ -36,6 +36,7 @@ Ventajas:
    modelar relaciones complejas.
 
 Modelo árbol de decisión:
+
     
     Ventajas:
     Fácil de entender e interpretar: Los árboles de decisión pueden visualizarse fácilmente, lo que facilita su explicación a personas no técnicas.
